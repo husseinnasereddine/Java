@@ -1,0 +1,18 @@
+Authentication:
+The first easy method would be hard coding it, which will be by comparing the credentials to the ones given by the user.
+My way was to create a table named "ADMIN" that includes all the possible credentials to login, then we are using this table to check either the username and password given by the user are correct or not!
+
+
+
+Deleting:
+It shows at the beginning a message that you chose the delete option, it asks you for the mail of the user you like to delete,
+If it exists it will delete it and write "deleted", if not it will show a message saying that it failed to delete.
+
+updating:
+it asks for the mail of the user to update, if it doesn't exist it shows a message saying that it doesn't exist. 
+If it exists it shows the user with its credentials and the option of changing the name or the email.
+Those processes are due by the link between the program and the database, another way to say it, every time the program checks if the user exists,
+he is actually searching the database for this type of info.
+
+Loop:
+After getting done with the functions i put all of the work inside a do-while loop so we can multitask, not only create a user then the program will be done!
